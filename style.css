@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+}
+
+#starpicture{ 
+  max-width: 100%;
+}
+
+#outer{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin:0;
+  border:0;
+}
+
+#menupos{
+  position: absolute;
+  text-align: center;
+  
+}
+
+
+.menu{
+  width: 100%;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+}
+
+a{
+  background-color: transparent;
+}
+.menu-elements{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+.menu-text{
+  color: white;
+}
+
